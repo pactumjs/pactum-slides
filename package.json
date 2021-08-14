@@ -2,7 +2,7 @@
   "private": true,
   "scripts": {
     "dev": "slidev --open",
-    "build": "slidev build",
+    "build": "slidev build --base /pactum-slides/",
     "export": "slidev export"
   },
   "dependencies": {
