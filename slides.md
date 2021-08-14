@@ -42,3 +42,39 @@ layout: center
 ---
 
 # Demo - 2
+
+---
+src: ./pages/nested-calls.md
+---
+
+---
+layout: center
+---
+
+# Demo - 3
+
+---
+src: ./pages/e2e-testing.md
+---
+
+---
+src: ./pages/mock-server-intro.md
+---
+
+---
+src: ./pages/simple-interaction.md
+---
+
+---
+layout: center
+---
+
+# Demo - 4
+
+---
+src: ./pages/interaction-options.md
+---
+
+---
+src: ./pages/component-testing.md
+---

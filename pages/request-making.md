@@ -11,18 +11,19 @@ Available methods for making requests*
             <li>withQueryParams</li>
             <li>withHeaders</li>
             <li>withCookies</li>
-            <li>withJson</li>
-            <li>withGraphQLQuery</li>
-            <li>withGraphQLVariables</li>
+            <li>withAuth</li>
+            <li>withFollowRedirects</li>
         </ul>
     </div>
     <div>
         <ul>
+            <li>withBody</li>
             <li>withFile</li>
             <li>withForm</li>
             <li>withMultiPartFormData</li>
-            <li>withAuth</li>
-            <li>withFollowRedirects</li>
+            <li>withJson</li>
+            <li>withGraphQLQuery</li>
+            <li>withGraphQLVariables</li>
             <li>inspect</li>
             <li>retry</li>
             <li>wait</li>
