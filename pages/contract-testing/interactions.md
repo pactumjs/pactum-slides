@@ -1,5 +1,7 @@
 # Interactions
 
+Assumed behavior is recorded as an **interaction** in pactum.
+
 ```js {all|3,6-21|4|5|all}
 it('post an orders to order-service', async () => {
   await pactum.flow('place an order')
