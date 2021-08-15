@@ -13,6 +13,17 @@ An open-source library for testing RESTful APIs written in JS.
 
 </v-clicks>
 
+<div class="space-y-6">
 
+<div></div>
 
-<!-- add pyramid image  -->
+<v-clicks>
+
+- Fuzz Testing
+- Data Management
+- Reporting
+- Powerful Matchers
+
+</v-clicks>
+
+</div>
