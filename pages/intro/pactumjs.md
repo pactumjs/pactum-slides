@@ -24,6 +24,8 @@ An open-source library for testing RESTful APIs written in JS.
 - Data Management
 - Reporting
 - Powerful Matchers
+- Handlers
+- State Management
 
 </v-clicks>
 

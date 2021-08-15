@@ -9,7 +9,7 @@ it('should buy a product which is in-stock', async () => {
       request: {
         method: 'GET',
         path: '/api/inventory-service/v1/products',
-        queryParams: { product: 'iPhone' }
+        queryParams: { name: 'iPhone' }
       },
       response: {
         status: 200,
@@ -18,8 +18,7 @@ it('should buy a product which is in-stock', async () => {
     })
     .post('http://localhost:3000/api/order-service/v1/orders')
     .withJson({
-      "name": "iPhone",
-      "quantity": 1
+      "product": "iPhone"
     })
     .expectStatus(200);
 });

@@ -2,8 +2,8 @@
 
 Assumed behavior is recorded as an **interaction** in pactum.
 
-```js {all|3,6-21|4|5|all}
-it('post an orders to order-service', async () => {
+```js {all|3,6-20|4|5|all}
+it('place an order', async () => {
   await pactum.flow('place an order')
     .useInteraction({
       provider: 'inventory-service', // same as provider project
@@ -20,8 +20,7 @@ it('post an orders to order-service', async () => {
     })
     .post('/api/order-service/v1/orders')
     .withJson({
-      'product': 'iPhone',
-      'quantity': 1
+      'product': 'iPhone'
     })
     .expectStatus(200);
 });
