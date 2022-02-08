@@ -1,4 +1,11 @@
-# Contract Testing
+---
+layout: fact
+---
+
+## testing <span class="text-orange-400">**compatibility**</span> between independent systems
+
+
+<!-- # Contract Testing
 
 A methodology for ensuring that two separate systems (such as two micro-services) are compatible and are able to communicate with one other. It captures the interactions that are exchanged between each service, storing them in a contract, which can then be used to verify that both parties adhere to it.
 
@@ -16,4 +23,4 @@ A methodology for ensuring that two separate systems (such as two micro-services
 - Consumer-Driven Contract Testing
 - Provider-Driven Contract Testing
 
-</v-clicks>
+</v-clicks> -->

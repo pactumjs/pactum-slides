@@ -6,9 +6,12 @@
     "export": "slidev export"
   },
   "dependencies": {
-    "@slidev/cli": "^0.22.7",
+    "@slidev/cli": "^0.28.5",
     "@slidev/theme-default": "*",
     "@slidev/theme-seriph": "*"
   },
-  "name": "pactum-slides"
+  "name": "pactum-slides",
+  "devDependencies": {
+    "@iconify-json/mdi": "^1.0.16"
+  }
 }

@@ -2,4 +2,4 @@
 layout: center
 ---
 
-# Demo - Intro
+# Demo

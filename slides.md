@@ -26,19 +26,19 @@ src: ./pages/intro/demo.md
 ---
 
 ---
-src: ./pages/request-making/cover.md
+src: ./pages/intro/request-making.md
 ---
 
 ---
-src: ./pages/request-making/options.md
+src: ./pages/intro/demo.md
 ---
 
 ---
-src: ./pages/response-validation/cover.md
+src: ./pages/intro/response-validation.md
 ---
 
 ---
-src: ./pages/response-validation/options.md
+src: ./pages/intro/demo.md
 ---
 
 ---

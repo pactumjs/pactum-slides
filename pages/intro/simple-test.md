@@ -4,15 +4,15 @@ A simple test case using **PactumJS** and **mocha**.
 
 <v-clicks>
 
-### <mdi-flask class="inline text-green-400" /> Test Case
+### Test Case
 
 A test case to make a GET request to an endpoint and expect a status code.
 
 ```js {0|1|3,7|4|5|6|all}
-const pactum = require('pactum');
+const { spec } = require('pactum');
 
 it('should be a teapot', async () => {
-  await pactum.spec()
+  await spec()
     .get('http://httpbin.org/status/418')
     .expectStatus(418);
 });

@@ -1,10 +1,10 @@
-# Simple Interaction
+# Interaction
 
 Interactions will help to simulate the HTTP requests & responses.
 
 <v-clicks>
 
-```js {all|1,14|3,12|4,8|4-7|8-11|all}
+```js {all|1,14|3,12|4,7,8,11|4-7|8-11|all}
 const { mock } = require('pactum');
 
 mock.addInteraction({
