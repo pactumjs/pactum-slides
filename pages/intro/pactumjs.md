@@ -1,4 +1,4 @@
-# What is PactumJS?
+<!-- # What is PactumJS?
 
 <v-clicks>
 
@@ -15,4 +15,6 @@ An open-source library for testing RESTful APIs written in JS.
 - 📚 Clear & Comprehensive Testing Style
 - 🔗 Component, Contract & E2E testing of APIs
 
-</v-clicks>
+</v-clicks> -->
+
+What is PactumJS?
